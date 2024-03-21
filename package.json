@@ -1,0 +1,38 @@
+{
+  "name": "vue-year-density-plus",
+  "description": "年密度组件 vue3版组件",
+  "version": "1.0.0",
+  "author": "aFei <1106728884@qq.com>",
+  "license": "MIT",
+  "main": "dist/vue-year-density-plus.umd.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-year-density-plus.mjs",
+      "require": "./dist/vue-year-density-plus.umd.js"
+    },
+    "./index.css": "./dist/style.css"
+  },
+  "private": false,
+  "scripts": {
+    "init": "npm install",
+    "build": "vite build",
+    "push": "npm publish",
+    "preview": "vite"
+  },
+  "keywords": [
+    "Vue3",
+    "year",
+    "density"
+  ],
+  "homepage": "https://github.com/QuietHear",
+  "repository": "https://github.com/QuietHear/vue-year-density-plus",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "element-plus": "^2.6.1",
+    "sass": "^1.63.4",
+    "unplugin-auto-import": "^0.16.4",
+    "vite": "^4.3.9",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  }
+}
