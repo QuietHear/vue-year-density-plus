@@ -4,7 +4,7 @@
 */
 /*
  * @LastEditors: aFei
- * @LastEditTime: 2024-03-21 13:26:21
+ * @LastEditTime: 2024-03-26 14:58:20
 */
 * {
   padding    : 0;
@@ -55,4 +55,20 @@ body,
 
 .demo {
   padding: 20px 10px;
+
+  .box {
+    display: flex;
+
+    .left {
+      border       : 1px solid rgb(208, 215, 222);
+      border-radius: 6px 6px 0 0;
+      padding      : 8px 0;
+      width        : calc(100% - 250px);
+      max-width    : 740px;
+    }
+
+    .right {
+      margin-left: 20px;
+    }
+  }
 }
