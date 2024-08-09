@@ -3,8 +3,8 @@
 * @Date: 2024-03-21 11:35:29
 */
 /*
- * @LastEditors: aFei
- * @LastEditTime: 2024-03-26 14:59:23
+* @LastEditors: aFei
+* @LastEditTime: 2024-08-09 11:20:29
 */
 <template>
   <div class="vue-year-density-plus">
@@ -67,6 +67,9 @@ const props = defineProps({
   firstDay: {
     type: Number,
     default: 7,
+    validator(value, props) {
+      return value >= 1 && value <= 7;
+    }
   },
   // 展示时间
   showTime: {
